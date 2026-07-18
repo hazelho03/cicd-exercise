@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #15171f;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  width: min(900px, 90%);
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #c4b5fd;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.card {
+  margin: 24px 0;
+  padding: 28px;
+  border: 1px solid #8b5cf6;
+  border-radius: 14px;
+  background: #20232e;
+  text-align: left;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #a78bfa;
+  text-align: center;
+}
+
+.card p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.status {
+  margin-top: 35px;
+  font-weight: bold;
+  color: #86efac;
+}
